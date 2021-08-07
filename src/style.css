@@ -1,0 +1,90 @@
+
+/****************star rating*****************/
+#btnStar {
+
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    
+  }
+  .on {
+    color: #000;
+  }
+  .off {
+    color: #ccc;
+  }
+
+/*************** body *********************/
+/* body{
+    background-image: url("https://ak.picdn.net/shutterstock/videos/3456578/thumb/1.jpg");
+} */
+/***********header*********************/
+
+/* .header{
+  margin-top:20px; 
+  margin-bottom: 20px;
+} */
+/*****image logo ******/
+/* .image-header{
+float: left;
+margin-top: 20px;
+margin-bottom: 100px;
+} */
+
+/*****stars ******/
+/* .stars-header{
+  float: right;
+  margin-top: 20px;
+  margin-bottom: 100px;
+} */
+/*******search bar ********/
+/* .search-bar{
+  float: right;
+  margin-top: 20px;
+  margin-bottom: 100px;
+  border-radius: 20px;
+  width: 400px;
+  border: none; 
+}*/
+
+
+/*******add btn ********/
+/* .add-header{
+  float: right;
+  margin-top: 20px;
+} */
+
+
+/************************ list movies ******************/
+
+/* .movies{
+  height: 700px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  
+} */
+
+/*************card*********/
+/* .cardy{
+  background-color: white;
+  margin-top: 20px;
+  width: 300px;
+  border-radius: 20px;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+  
+ } */
+
+ /* .cardy img{
+ width: 200px;
+ height: 250px;
+ margin-left:20px;
+ border-radius: 20px;
+ 
+ }
+   */
