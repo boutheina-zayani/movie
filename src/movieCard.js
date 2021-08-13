@@ -1,8 +1,9 @@
 import "./App.js"
 import "./style.css"
 import ReactStars from "react-rating-stars-component";
-import {Card,Row,Col} from 'react-bootstrap';
+import {Card,Button} from 'react-bootstrap';
 import React from 'react';
+import { Link } from "react-router-dom";
 
 
 
@@ -21,23 +22,17 @@ function MovieCard({el}){
                     size={24}
                     activeColor="#ffd700"
                     />
-          <Card.Text>{el.description} </Card.Text>
+          <Button onClick={(e) => e.preventDefault()}
+            >
+              <Link className="text-light" to={`/trailer/${el.id}`}>
+                TRAILER
+              </Link></Button>
         </Card.Body>
+        
       </Card>
   
 
-    //     <div  className="cardy"
-    //            key={el.id} >
-    //            <h5>{el.title} </h5>
-    //            <img src={el.posterURL} alt="film"/>
-    //            <ReactStars
-    //                 count={5}
-    //                 value={el.rate}
-    //                 size={24}
-    //                 activeColor="#ffd700"
-    //                 />
-    //            <p>{el.description}</p>  
-    //  </div>
+  
     ) 
      
 }

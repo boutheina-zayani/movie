@@ -24,7 +24,7 @@ const addMovie = () => {
   const handleShow = () => setShow(true);
   return (
     <>
-    <Button variant="primary" onClick={handleShow}>
+    <Button variant="primary" onClick={handleShow} className="btn-add">
         Go to add movie
       </Button>
       <Modal show={show} onHide={handleClose} animation={false}>
